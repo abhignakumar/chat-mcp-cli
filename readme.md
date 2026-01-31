@@ -123,12 +123,12 @@ The CLI features:
 
 ## Architecture
 
-- **`source/cli.tsx`** - Entry point that renders the React app
-- **`source/app.tsx`** - Main application component with chat logic and MCP integration
-- **`source/mcp-client.ts`** - MCP client wrapper for connecting to servers
-- **`source/utils.ts`** - Utility functions for configuration and AI model setup
-- **`source/types.ts`** - TypeScript types and Zod validation schemas
-- **`source/components/`** - React components for the terminal UI
+- **`src/cli.tsx`** - Entry point that renders the React app
+- **`src/app.tsx`** - Main application component with chat logic and MCP integration
+- **`src/mcp-client.ts`** - MCP client wrapper for connecting to servers
+- **`src/utils.ts`** - Utility functions for configuration and AI model setup
+- **`src/types.ts`** - TypeScript types and Zod validation schemas
+- **`src/components/`** - React components for the terminal UI
 
 ## Dependencies
 
