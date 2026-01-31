@@ -1,0 +1,17 @@
+{
+    "servers": {
+        "github": {
+            "type": "http",
+            "url": "https://api.githubcopilot.com/mcp/",
+            "headers": {
+                "Authorization": "Bearer your-api-key"
+            },
+            "disabled": false
+        },
+        "fetch": {
+            "type": "http",
+            "url": "https://remote.mcpservers.org/fetch/mcp",
+            "disabled": false
+        }
+    }
+}
